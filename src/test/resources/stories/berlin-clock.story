@@ -44,5 +44,38 @@ RRRR
 OOOOOOOOOOO
 OOOO
 
+Scenario: just before early morning
+When the time is 03:15:00
+Then the clock should look like
+Y
+OOOO
+RRRO
+YYROOOOOOOO
+OOOO
 
+Scenario:  Morning
+When the time is 07:30:00
+Then the clock should look like
+Y
+ROOO
+RROO
+YYRYYROOOOO
+OOOO
 
+Scenario:  Afternoon
+When the time is 13:45:15
+Then the clock should look like
+O
+RROO
+RRRO
+YYRYYRYYROO
+OOOO
+
+Scenario:  about to evening
+When the time is 18:59:59
+Then the clock should look like
+O
+RRRO
+RRRO
+YYRYYRYYRYY
+YYYY
