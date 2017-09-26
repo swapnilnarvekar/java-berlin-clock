@@ -8,7 +8,6 @@ import java.text.ParseException;
 
 import org.apache.log4j.Logger;
 
-import com.ubs.opsit.interviews.berlintimeconverter.BerlinTimeConverter;
 import com.ubs.opsit.interviews.exception.BerlinTimeConversionException;
 import com.ubs.opsit.interviews.validator.TimeValidator;
 
