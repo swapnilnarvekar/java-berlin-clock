@@ -16,7 +16,7 @@ import com.ubs.opsit.interviews.validator.berlintimevalidator.BerlinTimeValidato
 /**
  * The Class : <b>BerlinTimeConverter</b><br>
  * Description :This class is responsible for converting a given time(hh:mm:ss) to 'Berlin' time
- * It implements the interface - TimeConverter 
+ * It implements the interface - TimeConverter which is provided by UBS 
  *
  * @author Swapnil A. Narvekar
  */
