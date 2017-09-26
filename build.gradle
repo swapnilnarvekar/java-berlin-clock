@@ -33,4 +33,7 @@ dependencies {
             'org.assertj:assertj-core:1.6.1',
             'commons-io:commons-io:2.4',
             'org.jbehave:jbehave-core:3.8'
+
+	compile group: 'log4j', name: 'log4j', version: '1.2.16'
+            
 }
