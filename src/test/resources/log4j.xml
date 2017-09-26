@@ -3,12 +3,11 @@
 
 <log4j:configuration>
 
-    <appender name="ConsoleAppender"
-              class="org.apache.log4j.ConsoleAppender">
-        <!-- <param name="Threshold" value="debug" /> -->
+    <appender name="ConsoleAppender" class="org.apache.log4j.ConsoleAppender">
+        <param name="Threshold" value="debug" /> <!-- You can change this value to DEBUG to see all INFO , DEBUG statements -->
         <layout class="org.apache.log4j.PatternLayout">
             <param name="ConversionPattern"
-                   value="%d{yyy-MM-dd'T'HH:mm:ss.SSS} | %-10.10t | %-20.20c{1} | %-6p - %m %n"/>
+                   value="%d{yyy-MM-dd'T'HH:mm:ss.SSS} | %-10.10t | %-20.20c{1}.%M | %-6p - %m %n"/>
         </layout>
     </appender>
 
